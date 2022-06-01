@@ -1,24 +1,109 @@
-<div class="container">
-   <h1>jeffreyproton</h1>
-   <h3>Personal Profile</h3>
-   <a href="https://jeffreyproton.github.io/"><img src="https://avatars.githubusercontent.com/u/101737953" alt="profile-picture" border="0" /></a>
-   <h4>About Me</h4>
-   <p>Hi, I'm jeffreyproton, I have a huge passion for programming. I love to learn.</p>
-   <h4>My Skills</h4>
-   <div class="listFlex">
-      <div>
-         <ul>
-            <li>PHP</li>
-            <li>HTML</li>
-            <li>CSS</li>
-         </ul>
-      </div>
-      <div>
-         <ul>
-            <li>JavaScript</li>
-            <li>JQuery</li>
-            <li>C#</li>
-         </ul>
-      </div>
-   </div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewpoint" content="width=device-width, intital-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>My Page</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			
+		}
+
+		body,
+		html{
+			color: yellow;
+			font-family: 'lato',sans-serif;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+		}
+		body{
+			background-image: url(https://images.unsplash.com/photo-1556446384-0c6fd6c8e673?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: bottom;
+		}
+		.center .avatar img {
+			border-radius: 50%;
+			width: 140px;
+			height: 140px;
+			margin-top: 5%;
+			object-fit: cover;
+			object-position: 0 -8px;
+		}
+		.center{
+			width: 55%;
+			background-color: rgba(0, 0, 0, 0.7);
+			height: 60vh;
+			text-align: center;
+			border-radius: 5px;
+		}
+
+		.content {
+			padding: 30px;
+
+		}
+
+		h1 {
+			color: wheat;
+
+		}
+
+		.content h2,
+		p {
+			font-weight: lighter;
+			letter-spacing: 1px;
+			width: 70%;
+			margin: 10px auto;
+		}
+
+		.content h2 {
+			font-weight: 400;
+		}
+
+		.content h3{
+			margin-top: 20px;
+		}
+
+		div.social i {
+			padding: 0 10px;
+			font-size: 30px;
+			color: rgba(255, 255, 255, 0.6);
+			transition: 0.4s;
+		}
+
+		div.social i:hover{
+			color: rgba(255, 255, 255, 1.0);
+		}
+	</style>
+</head>
+
+<body>
+	<div class="center">
+		<div class="avatar">
+			<img src="https://media-exp1.licdn.com/dms/image/C4D0BAQFHz9agyy675A/company-logo_100_100/0/1635337455276?e=1661990400&v=beta&t=qlnciuZVJuI2TMz8OFUS39SRAJpZm0Ck-w4_C_OQhKg" 
+			alt="face">
+	    </div>
+	<div class="content">
+		<h1> Jeffrey W. </h1>
+		<h2>IT Specialist | NFT Creator | Music Producer | Video Producer | Graphic Designer | 3D Model Expert | Writer</h2>
+		<p>Pioneer (a pioneer in the field of information research) Creator ( a creator of a new technology) Explorer (an explorer keen on making new aspects discoveries)</p>
+		<p>PVery knowledgeable about computers. Able to operate any software, such as adobe, etc. Have enthusiasm and a positive attitude towards everything.</p>
+		<h3>
+			Contact Me
+		</h3>
+		<div> 
+			<div class = "social"> </div>
+				<a href="#"><i class="fab fa-linkedin"></i></a>				
+		</div>
+	</div>
+	</div>
+</body>
+
+</html>
